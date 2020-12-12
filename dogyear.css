@@ -1,0 +1,102 @@
+body {
+    position: relative;
+}
+
+#hYear {
+    color: rgba(0, 0, 0, 0.445);
+    font-size: 50px;
+    background: none;
+    outline: none;
+    border: 2px solid #e5e7e100;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: 'Nerko One', cursive;
+    transition: all 2s;
+    position: fixed;
+    top: 24%;
+    left: 5%;
+}
+
+.container {
+    background-image: url('dog.jpeg');
+    width: 93vw;
+    height: 80vh;
+    background-size: cover;
+    padding: 4%;
+    text-align: center;
+    background-blend-mode: overlay;
+    background-position: top right;
+}
+
+#btn {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.466);
+    background: none;
+    border: 2px solid burlywood;
+    border-radius: 40px;
+    padding: 1%;
+    margin: 40px;
+    outline: none;
+    
+    transition: all 2s;
+    position: fixed;
+    top: 35%;
+    left: 5%;
+}
+
+#dogYear {
+    font-size: 40px;
+    color: rgb(235, 161, 64);
+    position: fixed;
+    top: 58%;
+    left: 10%;
+}
+.wel{
+    position: relative;
+    left: 1%;
+    top: 1%;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.445);
+    font-family: 'Nerko One', cursive;
+    transition: all 2s;
+
+}
+
+#dogMonth {
+
+    font-size: 40px;
+    color: rgb(235, 161, 64);
+    position: fixed;
+    top: 72%;
+    left: 20%;
+}
+
+.block {
+    width: 30%;
+    height: 40vh;
+    padding: 5%;
+    background-size: 100% 100%;
+}
+
+#hYear:hover {
+
+border: 1px solid black;
+}
+
+#btn:hover {
+    transform: skewX(-20deg) scale(1.1);
+
+}
+
+.dog2 {
+    background-image: url('puppy.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+.scroll{
+    font-size: 50px;
+    position: fixed;
+    left: 30px;
+}
